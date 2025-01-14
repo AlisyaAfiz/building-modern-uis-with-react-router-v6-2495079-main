@@ -1,10 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
-import About from "./About";
 import Categories from "./Categories";
 import Category from "./Category";
-import Session from "./Session";
+import Session from "./Module";
 import Register from "./Register";
 import Confirmation from "./Confirmation";
 import Header from "./Header";

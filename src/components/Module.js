@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-import { getSession } from "../api";
+import { getModule } from "../api";
 
-export default function Session() {
+export default function Module() {
   const { catId, sessionId } = useParams()
 
-  const { name, desc, speaker } = getSession({ catId, sessionId });
+  const { name, desc, speaker } = getModule({ catId, sessionId });
 
   return (
     <>
