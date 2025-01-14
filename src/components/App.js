@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
+import About from "./About";
 import Categories from "./Categories";
 import Category from "./Category";
-import Session from "./Module";
+import Session from "./Session";
 import Register from "./Register";
 import Confirmation from "./Confirmation";
 import Header from "./Header";
@@ -11,8 +12,7 @@ import Header from "./Header";
 function App() {
   return (
     <div className="app">
-      <Header /> 
-      <></>
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home title="Welcome to Red30 Tech" />} />
